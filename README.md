@@ -1,0 +1,2 @@
+# Identifying-Contradictory-or-Implied-Meanings-in-Multilingual-Text
+Developed a model to detect entailment, neutrality, and contradiction in multilingual text using TPUs in the NLI domain. Tested "bert-base-multilingual-cased" and "XLM-RoBERTa large-xnli" models. The output was fed into a neural network with a dense layer using Softmax activation, Adam optimizer, and sparse_categorical_crossentropy loss function.
